@@ -1,10 +1,10 @@
 def add(x,y):
     return x+y
-def sub(x,y)
+def sub(x,y):
     return x-y
-def mult(x,y)
+def mult(x,y):
     return x*y
-def div(x,y)
+def div(x,y):
     if y==0:
         return "Error: Divison by zero"
     return x/y
@@ -17,8 +17,8 @@ print("3. div")
 while True:
     choice =input("Enter your choice(1/2/3/4):")
     if choice in['1','2','3','4']:
-        num1=float(input("Enter first number"))
-        num2=float(input("Enter second number"))
+        num1=float(input("Enter first number:"))
+        num2=float(input("Enter second number:"))
         if choice=="1":
             print(f"{num1}+{num2}={add(num1,num2)}")
         elif choice=="2":
