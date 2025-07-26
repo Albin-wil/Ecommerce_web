@@ -55,6 +55,11 @@ p{
     line-height: 60px;
     margin: 25px 0;
 }
+.col-3 img{
+    flex: auto;
+    padding: auto;
+    width: 100%;
+}
 .btn{
     display: inline-block;
     background: #ff523b;
@@ -72,4 +77,27 @@ p{
 }
 .btn:hover{
     background: #563434;
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.col-4{
+    flex-basis: 25%;
+    padding: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 50px;
+}
+.col-4 img{
+    width: 100%;
+}
+.title{
+        text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: gray;
 }
